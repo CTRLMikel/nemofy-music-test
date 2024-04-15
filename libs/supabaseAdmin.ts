@@ -116,7 +116,7 @@ const manageSubscriptionStatusChange = async (
   const subscription = await stripe.subscriptions.retrieve(subscriptionId, {
     expand: ['default_payment_method']
   });
-  // Upsert the latest status of the subscription object.
+
   const subscriptionData: Database['public']['Tables']['subscriptions']['Insert'] =
     {
       id: subscription.id,
