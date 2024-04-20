@@ -1,4 +1,4 @@
-Key Features:
+### Key Features:
 
 - Song upload
 - Stripe integration
@@ -22,9 +22,9 @@ Key Features:
 
 ### Prerequisites
 
-**Node version 14.x**
+**Node.js**
 
-### Install packages
+### Install needed packages
 
 ```shell
 npm i
@@ -35,11 +35,3 @@ npm i
 ```shell
 npm run dev
 ```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
